@@ -1,6 +1,6 @@
-//recoil .lua para mouse Logitch para fins de jogos de FPS
-//ADD meu GitHub: https://github.com/DaRkNeSs-ByTs
-//fico a disposição para novas interações e Projetos...
+--recoil .lua para mouse Logitch para fins de jogos de FPS
+--ADD meu GitHub: https://github.com/DaRkNeSs-ByTs
+--fico a disposição para novas interações e Projetos...
 
 
 local Activate_Key        = "numlock"     -- Ativa o script com a tecla numlock
