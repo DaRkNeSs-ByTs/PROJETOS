@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Planeje suas férias em Florianópolis com pacotes a partir de R$599. Reserve agora!">
+    <title>Férias em Florianópolis 2025</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pacotes">Pacotes</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage -->
+    <header id="home">
+        <h1>Descubra Florianópolis</h1>
+        <p>Suas Férias Perfeitas Começam Aqui!</p>
+        <a href="#contato" class="cta-button">Reserve Agora</a>
+    </header>
+
+    <!-- Pacotes -->
+    <section id="pacotes">
+        <h2>Pacotes Turísticos</h2>
+        <div class="package">
+            <h3>3 Dias e 2 Noites</h3>
+            <p>A partir de R$599 por pessoa. Inclui hospedagem, café da manhã e passeios.</p>
+            <a href="#contato" class="cta-button">Garanta Já</a>
+        </div>
+        <div class="package">
+            <h3>5 Dias e 4 Noites</h3>
+            <p>A partir de R$999 por pessoa. Inclui traslado e tour completo.</p>
+            <a href="#contato" class="cta-button">Garanta Já</a>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria">
+        <h2>Galeria de Imagens</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Praia da Joaquina">
+            <img src="https://images.unsplash.com/photo-1596398050748-0d5bdea25f8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Lagoa da Conceição">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4cb0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Pôr do Sol">
+        </div>
+    </section>
+
+    <!-- Formulário de Contato (Corrigido para Acessibilidade) -->
+    <section id="contato">
+        <h2>Fale Conosco</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="nome">Seu Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu Nome" title="Digite seu nome completo" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Seu E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Seu E-mail" title="Digite seu endereço de e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="pessoas">Número de Pessoas</label>
+                <input type="text" id="pessoas" name="pessoas" placeholder="Número de Pessoas" title="Digite o número de pessoas para a viagem" required>
+            </div>
+            <div class="form-group">
+                <label for="data">Data Prevista da Viagem</label>
+                <input type="date" id="data" name="data" title="Selecione a data prevista para sua viagem" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Férias em Florianópolis. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
