@@ -52,9 +52,7 @@ galleryImages.forEach(img => {
   });
 });
 
-// Contador Regressivo para o Verão (1º de Dezembro de 2025)
 function startCountdown() {
-  const countdownDate = new Date('December 1, 2025 00:00:00').getTime();
   const countdownElement = document.createElement('div');
   countdownElement.id = 'countdown';
   document.querySelector('#home').appendChild(countdownElement);
