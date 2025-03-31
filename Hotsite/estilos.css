@@ -47,7 +47,7 @@ nav ul li a:hover {
 /* Header - Homepage */
 header {
   background: url('https://img.freepik.com/fotos-premium/vista-da-paisagem-natural-da-bela-e-paradisiaca-praia_63047-1719.jpg') no-repeat center/cover;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
