@@ -7,3 +7,22 @@ function conversor() {
   let valorPeso = valoremreais * 0.032;
 }
 
+switch ((1, 2, 3, 4, 5)) {
+  case 1:
+    alert("O valor em euros é: " + valoreuros);
+    break;
+  case 2:
+    alert("O valor em dolares é: " + valorDolar);
+    break;
+  case 3:
+    alert("O valor em libras é: " + valorLibra);
+    break;
+  case 4:
+    alert("O valor em yen é: " + valorYen);
+    break;
+  case 5:
+    alert("O valor em pesos é: " + valorPeso);
+    break;
+  default:
+    alert("Escolha a opção certa , BURROO !");
+}
