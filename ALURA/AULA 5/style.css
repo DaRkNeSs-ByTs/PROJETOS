@@ -16,7 +16,7 @@ body {
 /* Caixa principal do jogo */
 .conteudo-jogo {
   background: rgba(0, 0, 0, 0.7);
-  box-shadow: 0 0 5px #ff1b7b;
+  box-shadow: 0 0 5px #09944e;
   margin: 30px;
   padding: 20px;
   height: 50vh;
