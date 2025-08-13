@@ -1,0 +1,19 @@
+﻿Passo 1) Abrir o arquivo "users.txt" encontrado na mesma pasta que o script
+
+Passo 2) Copiar e colar todas as matriculas do arquivo excel dos desligados nesse arquivo de users.txt
+Exemplo dos conteudos do users.txt:
+113464
+114459
+115469
+115486
+115489
+115499
+115500
+
+Passo 3) Salve o arquivos users.txt e clique com o botão direito no script "Script_Desativar_Usuarios" e rode pelo Powershell
+
+todos os usuarios com matriculas vinculadas serão desativados, e um log sera gerado dos usuarios desativados dentro da pasta "Logs"
+
+
+ERROS: 
+- Caso o usuario tenha dois usuarios com o nome igual ou dois usuarios com o telefone cadastrado, será apresentando um erro porem ambos são desatiados

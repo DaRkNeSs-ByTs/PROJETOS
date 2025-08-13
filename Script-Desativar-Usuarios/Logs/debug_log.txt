@@ -1,0 +1,40 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20250522090122
+Nome de Usuário: ############
+Executar como Usuário: ############
+Nome da Configuração: 
+Computador: ######### (Microsoft Windows NT 10.0.20348.0)
+Aplicativo Host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Script-Desativar-Usuarios\Desativar_Usuarios.ps1'
+ID do Processo: 14008
+PSVersion: 5.1.20348.2849
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.2849
+BuildVersion: 10.0.20348.2849
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcrição iniciada, o arquivo de saída é C:\Script-Desativar-Usuarios\Logs\debug_log.txt
+Diretorio do script: C:\Script-Desativar-Usuarios
+Caminho do arquivo: C:\Script-Desativar-Usuarios\users.txt
+Arquivo Encontrado. Continuando...
+ID de Usuario carregado
+Data atual: 2025_05_22
+Arquivo de output: C:\Script-Desativar-Usuarios\Logs\UsuariosDesativados_2025_05_22.txt
+Pasta de Logs Existe.
+Processando UserID: #######
+
+Usuarios encontrados para o ID: ######
+Processando Usuario: ###########
+Usuario ######## movido para DESATIVADOS.
+Usuario ######## deshabilitado.
+Usuario ######## nao pertence a nenhum grupo.
+
+Resultados escritos para o arquivo C:\Script-Desativar-Usuarios\Logs\UsuariosDesativados_2025_05_22.txt
+
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20250522090132
+**********************
