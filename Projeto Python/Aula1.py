@@ -1,7 +1,7 @@
-temperatura =21
-if temperatura > 30:
-  print("está quente")
-elif temperatura < 20:
-  print("está frio")
+preco_do_pao = 4
+dinheiro_disponivel = 20
+
+if dinheiro_disponivel >= preco_do_pao:
+  print ("você consegue comprar pão")
 else:
-  print("está agradável")
+  print ("você não consegue comprar pão")
