@@ -3,21 +3,30 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: #f4f4f4;
   color: #222;
+  min-width: 320px;
 }
 
 .main {
   display: flex;
   min-height: 100vh;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .sidebar {
   background: #333;
   color: #fff;
   width: 300px;
+  min-width: 220px;
+  max-width: 350px;
   padding: 32px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
+  word-break: break-word;
 }
 
 .sidebar img {
@@ -76,6 +85,9 @@ body {
   padding: 48px 48px 32px 48px;
   background: #fff;
   min-width: 0;
+  max-width: 900px;
+  box-sizing: border-box;
+  word-break: break-word;
 }
 
 .top-info {
