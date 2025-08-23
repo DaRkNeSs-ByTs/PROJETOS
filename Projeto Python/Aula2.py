@@ -1,3 +1,10 @@
+# Aula - Operadores Lógicos
+# and, or, not
+# and = e
+# or = ou
+# not = não
+# Exemplo:
+
 temperatura =21
 if temperatura > 30:
   print("está quente")
