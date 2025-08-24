@@ -5,7 +5,7 @@
 # not = não
 # Exemplo:
 
-idade =17
+idade = 17
 condicionamento_fisico = False
 autorizacao_medica = True
 
