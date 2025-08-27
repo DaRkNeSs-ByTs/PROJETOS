@@ -1,0 +1,413 @@
+/* Estilos Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #0a1118;
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #4ecdc4;
+  color: #4ecdc4;
+  padding: 12px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4ecdc4;
+  color: #0a1118;
+}
+
+/* Header e Navegação */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: rgba(10, 17, 24, 0.9);
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4ecdc4;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.menu a {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #4ecdc4;
+}
+
+/* Seção Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #0a1118;
+  background-image: url('logo.png');
+  background-size: cover;
+  background-position: center;
+  padding: 0 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(10, 17, 24, 0.9), rgba(10, 17, 24, 0.7));
+  z-index: 1;
+}
+
+.hero-content {
+  max-width: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #4ecdc4;
+  margin-bottom: 20px;
+}
+
+/* Seção Sobre */
+.sobre h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.sobre-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sobre-content p {
+  margin-bottom: 20px;
+  color: #a0a0a0;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Seção Skills */
+.skills {
+  background-color: #0d1721;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skill-item {
+  width: 120px;
+  height: 120px;
+  background-color: #131f2c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-10px);
+}
+
+.skill-item i {
+  font-size: 50px;
+  color: #4ecdc4;
+}
+
+/* Seção Serviços */
+.servicos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.servicos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.servico-item {
+  background-color: #131f2c;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.servico-item:hover {
+  transform: translateY(-10px);
+}
+
+.servico-item h3 {
+  margin-bottom: 15px;
+  color: #4ecdc4;
+}
+
+.servico-item p {
+  color: #a0a0a0;
+}
+
+/* Seção Projetos */
+.projetos {
+  background-color: #0d1721;
+}
+
+.projetos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projetos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.projeto-item {
+  background-color: #131f2c;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.projeto-item:hover {
+  transform: translateY(-10px);
+}
+
+.projeto-item h3 {
+  margin-bottom: 15px;
+  color: #4ecdc4;
+}
+
+.projeto-item p {
+  color: #a0a0a0;
+  margin-top: 15px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tags span {
+  background-color: #1a2836;
+  color: #4ecdc4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/* Seção Contato */
+.contato-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+}
+
+.contato-info h2 {
+  color: #4ecdc4;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.contato-info h3 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.social-links a {
+  width: 50px;
+  height: 50px;
+  background-color: #131f2c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #4ecdc4;
+}
+
+.social-links i {
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  background-color: #131f2c;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+/* Footer */
+footer {
+  background-color: #0d1721;
+  text-align: center;
+  padding: 30px 0;
+  color: #a0a0a0;
+}
+
+/* Responsividade para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px 5%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  section {
+    padding: 60px 5%;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .skills-container {
+    gap: 15px;
+  }
+
+  .skill-item {
+    width: 100px;
+    height: 100px;
+  }
+
+  .servicos-container,
+  .projetos-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-info {
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .skill-item {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skill-item i {
+    font-size: 36px;
+  }
+
+  .contato-info h2 {
+    font-size: 24px;
+  }
+
+  .contato-info h3 {
+    font-size: 20px;
+  }
+}
