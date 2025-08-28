@@ -38,16 +38,4 @@ Carro carro = new Carro("Gol", "Volkswagen");
  System.out.println(meuCarro.getMarca());
  
 
-//meuCarro.acelerar();
-//meuCarro.frear(); 
-
-
-
-
-
-
-
-
-
-
 }
