@@ -33,9 +33,10 @@ public void frear(){
 }
 
 
-Carro carro = new Carro("Gol", "Volkswagen");
- System.out.println(meuCarro.getModelo());
- System.out.println(meuCarro.getMarca());
- 
+public static void main(String[] args) {
+    Carro carro = new Carro("Gol", "Volkswagen");
+    System.out.println(carro.getModelo());
+    System.out.println(carro.getMarca());
+}
 
 }
