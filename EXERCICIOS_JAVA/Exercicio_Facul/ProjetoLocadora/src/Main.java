@@ -23,8 +23,9 @@ class VeiculoPasseio {
 }
 
 class VeiculoCarga {
-    private String placa, marca, modelo;
-    private int capacidade;
+    private String placa, marca;
+    private final String modelo;
+    private final int capacidade;
     public VeiculoCarga(String placa, String marca, String modelo, int capacidade) {
         this.placa = placa;
         this.marca = marca;
